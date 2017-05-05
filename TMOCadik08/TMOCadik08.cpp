@@ -82,7 +82,7 @@ TMOCadik08::TMOCadik08() :
 	type.SetDescription(L"type of gradient correction:\n"
 	                      "cyc - naive cyclical correction,\n"
 	                      "cb - chessboard-style correction,\n"
-	                      "cbloc - chessboard-style correction,\n"
+	                      "cbloc - chessboard-style correction using local memory,\n"
 	                      "quad - hierarchical quadtree correction,\n"
 	                      "cpu - sequential version");
 	type.SetDefault("cbloc");
